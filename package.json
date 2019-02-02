@@ -1,25 +1,41 @@
 {
-  "name": "airbeds",
+  "name": "shop-for-rent",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://appbaseio-apps.github.io/airbeds",
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "react-scripts": "1.0.17"
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^2.0.1",
+    "react-scripts": "2.1.3"
   },
   "dependencies": {
+    "@appbaseio/reactivemaps": "^3.0.0-alpha.1",
     "@appbaseio/reactivesearch": "^2.0.0-beta-01",
-    "create-react-app": "^1.4.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
     "global": "^4.3.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-app-polyfill": "^0.2.0",
+    "react-copy-write": "^0.8.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

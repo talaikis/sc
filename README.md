@@ -1,15 +1,22 @@
-## Airbeds App
+# Shop for rent
 
-![Airbeds app image](https://i.imgur.com/06wpxko.png)
+## What would have done if had more time
 
-Airbeds app demos the use of [ReactiveSearch](https://github.com/appbaseio/reactivesearch) for building a search UI.
+Fixed the design of cart and checkout pages, removed CartButton from those, implemented payment microseervice at
+checkout page, removed hardcoded dates. + Tests of everything.
 
-## Read About It
+## Install
 
-A how to build post is available over [here](https://scotch.io/tutorials/build-an-airbnb-clone-with-react-and-elasticsearch).
+```bash
+npm i
+```
 
-## License
+## Run
 
-The source code is available under MIT License.
+```bash
+npm run start
+```
 
+## Deploy
 
+Use slave_build.sh and slave_run.sh to Dockerize the app.
